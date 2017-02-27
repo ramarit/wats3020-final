@@ -1,0 +1,440 @@
+body {
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a, a:hover, a:focus, a:active, a.active {
+  outline: none;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover, a:focus, a:active, a.active {
+  color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* image centered class */
+.img-centered {
+  margin: 0 auto;
+}
+
+/* text centered class */
+.text-center {
+  text-align: center;
+}
+
+/* DESCRIPTION LISTS */
+dt {
+  font-weight: bold;
+  text-decoration: underline;
+  }
+
+dd {
+  margin: 0;
+  padding: 0 0 0.5em 0;
+  }
+
+/* UNORDERED LISTS STYLE */
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}  
+
+/* list styles */
+#list { margin: 0 auto; }
+#list { width:600px; }
+#list ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#9A1212;  }
+#list ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:black; border-left: 1px solid #999; }
+
+
+ul {
+  list-style-type: none;
+}
+
+/*li p {
+    white-space: nowrap;
+}
+
+li object {
+  margin: 0 15px 0 0;
+}*/
+
+#list ul{
+  margin-left: 30px;
+  padding-bottom: 100px;
+}
+
+#list ul > li {
+  padding-top: 100px;
+}
+/* home */
+#list ul > li:nth-child(1) {
+ float:left; 
+  background: url('../img/svg/home.svg') no-repeat left center;
+  padding-left:10px;
+  padding: 60px;
+  margin-top: -30px;
+}
+/* dog-food */
+#list ul > li:nth-child(2) {
+  float:left; 
+  background: url('../img/svg/dog-food.svg') no-repeat left center;
+  padding-left:10px;
+  padding: 60px;
+  margin-top: -60px;
+}
+/* bone */
+#list ul > li:nth-child(3) {
+  float:left; 
+  background: url('../img/svg/bone.svg') no-repeat left center;
+  padding-left:10px;
+  padding: 60px;
+  margin-top: -60px;
+}
+/* pill */
+#list ul li:nth-child(4) {
+  float:left; 
+  background: url('../img/svg/pill.svg') no-repeat left center;
+  padding-left:10px;
+  padding: 60px;
+  margin-top: -60px;
+}
+/* ball */
+#list ul li:nth-child(5) {
+  float:left; 
+  background: url('../img/svg/ball.svg') no-repeat left center;
+  padding-left:10px;
+  padding: 60px;
+  margin-top: -60px;
+}
+/* airplane */
+#list ul li:nth-child(6) {
+  float:left; 
+  background: url('../img/svg/airplane.svg') no-repeat left center;
+  padding-left:10px;
+  padding: 60px;
+  margin-top: -60px;
+}
+/* lock */
+#list ul li:nth-child(7) {
+  float:left; 
+  background: url('../img/svg/lock.svg') no-repeat left center;
+  padding-left:10px;
+  padding: 60px;
+  margin-top: -60px;
+}
+/* walking-the-dog */
+#list ul li:nth-child(8) {
+  float:left; 
+  background: url('../img/svg/walking-the-dog.svg') no-repeat left center;
+  padding-left:10px;
+  padding: 60px;
+  margin-top: -60px;
+}
+
+
+#icon {
+  padding-bottom: 100px;
+}
+a.svg {
+  position: relative;
+  display: inline-block; 
+}
+a.svg:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+
+.navbar {
+  background-color: black;
+  color: black;
+  border: black;
+}
+ .navbar a {
+  color: #0047b3;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 75px;
+  height: 75px;
+}
+
+.navbar-nav>li>a {
+  padding-top: -20px;
+}
+
+
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #0C545E;
+  border-color: #0C545E;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #0C545E;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  background-color: #fed136;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  background-color: #fec503;
+}
+
+header {
+  background-image: url('../img/header-bg-4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+  margin-top: 60px
+  z-index: -100;
+}
+
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+  display: block;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+header a.page-scroll{
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+}
+
+section#about, section#fees {
+  background-color: #0C545E;
+  color: #fff;
+}  
+
+#about .team-member {
+  padding: 50px;
+}
+section {
+  padding: 100px 0;
+}
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+#contact {
+  margin-bottom: -150px;
+}
+
+
+#photo {
+  background-image: url('../img/header-bg-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 20px;
+  height: 500px;
+}
+
+#photo2 {
+  background-image: url('../img/cat.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 500px;
+}
+
+/* MAP CONTAINER */
+#map-container { 
+  height: 400px;
+  width: 95%;
+  margin: 0 auto; 
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+footer span.ryan a {
+  color: black;
+}
+
+/**** Extra Small ****/
+@media (max-width: 767px) {
+  header .intro-text .intro-heading {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  #photo, #photo2 {
+    height: 300px;
+  }
+
+  /* MAP CONTAINER */
+  #map-container { 
+    height: 300px;
+
+  }
+}
+
+/**** Small ****/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* header */
+  header {
+    height: 600px;
+  }
+
+  header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 50px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  
+  /* section */
+  section {
+    padding: 150px 0;
+  }
+
+  #photo, #photo2 {
+    height: 300px;
+  }
+}
+
+/**** Medium ****/
+@media (min-width: 992px) and (max-width: 1199px) {
+  header {
+    height: 600px;
+  }
+
+  header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 50px;
+  }
+
+  header .intro-text .intro-heading {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 50px;
+  }
+
+  #photo, #photo2 {
+    height: 500px;
+  }
+
+}
+
+/**** Large ****/
+@media (min-width: 1200px) {
+  header {
+    height: 700px;
+    margin-bottom: 50px;
+  }
+
+  header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 50px;
+  }
+
+  header .intro-text .intro-heading {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+}
+
+
+
+
+
