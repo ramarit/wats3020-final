@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-  var map = L.map('map-container').setView([47.6062, -122.3321], 10);
+  var map = L.map('map-container').setView([47.66, -122.3321], 12);
 
   /*var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
   var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
@@ -34,39 +34,5 @@ $(document).ready(function() {
 
   L.control.layers(mapLayers).addTo(map);
   satLayer.addTo(map);
-
-  // Highlight the top nav as scrolling occurs
-  $('body').scrollspy({
-      target: '.navbar-fixed-top',
-      offset: 51
-  });
-    /* smooth scroll */
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top -45
-        }, 1000, function(){
-   
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
-    });
-
-
-
-
-
 
 });
