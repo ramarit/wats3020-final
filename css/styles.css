@@ -55,98 +55,104 @@ ul {
   padding:0;
 }  
 
-/* list styles */
-#list { margin: 0 auto; }
-#list { width:600px; }
-#list ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#9A1212;  }
-#list ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:black; border-left: 1px solid #999; }
-
-
-ul {
+#list-1 ul,
+#list-2 ul,
+#list-3 ul,
+#list-4 ul,
+#list-5 ul,
+#list-6 ul,
+#list-7 ul,
+#list-8 ul,
+#list-9 ul,
+#list-10 ul,
+#list-11 ul,
+#list-12 ul,
+#list-13 ul,
+#list-14 ul,
+#list-15 ul
+ {
   list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  white-space: pre-line;
 }
 
-/*li p {
-    white-space: nowrap;
-}
-
-li object {
-  margin: 0 15px 0 0;
-}*/
-
-#list ul{
-  margin-left: 30px;
-  padding-bottom: 100px;
-}
-
-#list ul > li {
-  padding-top: 100px;
-}
-/* home */
-#list ul > li:nth-child(1) {
- float:left; 
-  background: url('../img/svg/home.svg') no-repeat left center;
-  padding-left:10px;
+#list-1 ul > li,
+#list-2 ul > li,
+#list-3 ul > li,
+#list-4 ul > li,
+#list-5 ul > li,
+#list-6 ul > li,
+#list-7 ul > li,
+#list-8 ul > li,
+#list-9 ul > li,
+#list-10 ul > li,
+#list-11 ul > li,
+#list-12 ul > li,
+#list-13 ul > li,
+#list-14 ul > li,
+#list-15 ul > li
+ {
   padding: 60px;
-  margin-top: -30px;
+  margin-top: -60px;
+  display: inline-block;
+}
+
+/* home */
+#list-1 ul > li{ 
+  background: url('../img/svg/home.svg') no-repeat left center;
 }
 /* dog-food */
-#list ul > li:nth-child(2) {
-  float:left; 
+#list-2 ul > li {
   background: url('../img/svg/dog-food.svg') no-repeat left center;
-  padding-left:10px;
-  padding: 60px;
-  margin-top: -60px;
 }
 /* bone */
-#list ul > li:nth-child(3) {
-  float:left; 
+#list-3 ul > li {
   background: url('../img/svg/bone.svg') no-repeat left center;
-  padding-left:10px;
-  padding: 60px;
-  margin-top: -60px;
+
 }
 /* pill */
-#list ul li:nth-child(4) {
-  float:left; 
-  background: url('../img/svg/pill.svg') no-repeat left center;
-  padding-left:10px;
-  padding: 60px;
-  margin-top: -60px;
+#list-4 ul li {
+  background: url('../img/svg/medical.svg') no-repeat left center;
 }
 /* ball */
-#list ul li:nth-child(5) {
-  float:left; 
+#list-5 ul li {
   background: url('../img/svg/ball.svg') no-repeat left center;
-  padding-left:10px;
-  padding: 60px;
-  margin-top: -60px;
 }
 /* airplane */
-#list ul li:nth-child(6) {
-  float:left; 
+#list-6 ul li {
   background: url('../img/svg/airplane.svg') no-repeat left center;
-  padding-left:10px;
-  padding: 60px;
-  margin-top: -60px;
 }
 /* lock */
-#list ul li:nth-child(7) {
-  float:left; 
+#list-7 ul li { 
   background: url('../img/svg/lock.svg') no-repeat left center;
-  padding-left:10px;
-  padding: 60px;
-  margin-top: -60px;
 }
 /* walking-the-dog */
-#list ul li:nth-child(8) {
-  float:left; 
+#list-8 ul li {
   background: url('../img/svg/walking-the-dog.svg') no-repeat left center;
-  padding-left:10px;
-  padding: 60px;
-  margin-top: -60px;
 }
 
+#list-9 ul li {
+  background: url('../img/svg/cat.svg') no-repeat left center;
+}
+#list-10 ul li {
+  background: url('../img/svg/dog-food.svg') no-repeat left center;
+}
+#list-11 ul li {
+  background: url('../img/svg/walking-the-dog.svg') no-repeat left center;
+}
+#list-12 ul li {
+  background: url('../img/svg/medical.svg') no-repeat left center;
+}
+#list-13 ul li {
+  background: url('../img/svg/poo.svg') no-repeat left center;
+}
+#list-14 ul li {
+  background: url('../img/svg/plant.svg') no-repeat left center;
+}
+#list-15 ul li {
+  background: url('../img/svg/lock.svg') no-repeat left center;
+}
 
 #icon {
   padding-bottom: 100px;
@@ -164,25 +170,46 @@ a.svg:after {
   left:0;
 }
 
+#main-nav ul{
+  margin:0;
+}
+#main-nav a {
+  padding: 100px 20px; 
+  display:inline-block;
+}
+
 .navbar {
   background-color: black;
   color: black;
   border: black;
 }
+
  .navbar a {
   color: #0047b3;
 }
 
+/* navbar links */
 .navbar-brand,
 .navbar-nav li a {
   line-height: 75px;
   height: 75px;
+  padding: 0px 20px; 
+  display:inline-block;
+}
+
+/* hamburger menu */
+.navbar-toggle {
+  line-height: 75px;
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  padding: 15px;
 }
 
 .navbar-nav>li>a {
   padding-top: -20px;
 }
-
 
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -282,7 +309,6 @@ section h3.section-subheading {
   margin-bottom: 15px;
 }
 
-
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -325,14 +351,62 @@ section h3.section-subheading {
   margin: 0 auto; 
 }
 
-footer {
-  padding: 25px 0;
-  text-align: center;
+
+.footer {
+  background: #EDEFF1;
+  height: auto;
+  padding-bottom: 30px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #DDDDDD;
+}
+.footer p {
+  margin: 0;
 }
 
-footer span.ryan a {
-  color: black;
+.footer h3 {
+  color: #54697E;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-transform: uppercase;
 }
+
+.footer ul, .footer p {
+  font-size: 13px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 15px;
+  color: #7F8C8D;
+}
+.footer ul li a {
+  padding: 0 0 5px 0;
+  display: block;
+}
+.footer a {
+  color: #78828D
+}
+
+#psi-logo {
+  padding-top: 30px;
+}
+
+#footer-4 {
+  padding-top: 30px;
+  padding: 10px;
+}
+.footer-bottom {
+  background: #E3E3E3;
+  border-top: 1px solid #DDDDDD;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+  padding-top: 6px;
+}
+
 
 /**** Extra Small ****/
 @media (max-width: 767px) {
@@ -349,6 +423,26 @@ footer span.ryan a {
   #map-container { 
     height: 300px;
 
+  }
+
+  #list-1 ul,
+  #list-2 ul,
+  #list-3 ul,
+  #list-4 ul,
+  #list-5 ul,
+  #list-6 ul,
+  #list-7 ul,
+  #list-8 ul,
+  #list-9 ul,
+  #list-10 ul,
+  #list-11 ul,
+  #list-12 ul,
+  #list-13 ul,
+  #list-14 ul,
+  #list-15 ul {
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
   }
 }
 
@@ -375,6 +469,14 @@ footer span.ryan a {
     font-size: 25px;
     margin-bottom: 50px;
   }
+
+  .navbar-brand,
+  .navbar-nav li a {
+  padding: 0px 10px; 
+}
+  .navbar-brand {
+  padding: 15px;
+}
   
   /* section */
   section {
@@ -384,6 +486,7 @@ footer span.ryan a {
   #photo, #photo2 {
     height: 300px;
   }
+
 }
 
 /**** Medium ****/
