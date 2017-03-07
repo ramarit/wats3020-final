@@ -247,7 +247,7 @@ a.svg:after {
 }
 
 header {
-  background-image: url('../img/header-bg-4.jpg');
+  background-image: url('../img/header-bg-4_small.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -288,10 +288,10 @@ section#about, section#fees {
   background-color: #0C545E;
   color: #fff;
 }  
-
 #about .team-member {
-  padding: 50px;
+    padding: 50px;
 }
+
 section {
   padding: 100px 0;
 }
@@ -320,7 +320,7 @@ section h3.section-subheading {
 
 
 #photo {
-  background-image: url('../img/header-bg-2.jpg');
+  background-image: url('../img/header-bg-2_small.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -333,7 +333,7 @@ section h3.section-subheading {
 }
 
 #photo2 {
-  background-image: url('../img/cat.jpg');
+  background-image: url('../img/cat_small.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -472,11 +472,11 @@ section h3.section-subheading {
 
   .navbar-brand,
   .navbar-nav li a {
-  padding: 0px 10px; 
-}
+    padding: 0px 10px; 
+  }
   .navbar-brand {
-  padding: 15px;
-}
+    padding: 15px;
+  }
   
   /* section */
   section {
@@ -486,7 +486,6 @@ section h3.section-subheading {
   #photo, #photo2 {
     height: 300px;
   }
-
 }
 
 /**** Medium ****/
@@ -515,6 +514,11 @@ section h3.section-subheading {
     height: 500px;
   }
 
+  #about .team-member {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
 }
 
 /**** Large ****/
@@ -533,6 +537,11 @@ section h3.section-subheading {
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 50px;
+  }
+
+  #about .team-member {
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
 }
