@@ -288,8 +288,12 @@ section#about, section#fees {
   background-color: #0C545E;
   color: #fff;
 }  
-#about .team-member {
+#about .team-member{
     padding: 50px;
+}
+
+#about .team-member p, #about .team-member h5 {
+  font-size: 1.25em;
 }
 
 section {
@@ -317,7 +321,6 @@ section h3.section-subheading {
 #contact {
   margin-bottom: -150px;
 }
-
 
 #photo {
   background-image: url('../img/header-bg-2_small.jpg');
