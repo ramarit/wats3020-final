@@ -1,5 +1,6 @@
-body {
-  overflow-x: hidden;
+html, body {
+  width:100%; 
+  overflow-x:hidden;
 }
 
 p {
@@ -70,7 +71,7 @@ ul {
 #list-13 ul,
 #list-14 ul,
 #list-15 ul
- {
+{
   list-style-type: none;
   padding-left: 20px;
   padding-right: 20px;
@@ -92,7 +93,7 @@ ul {
 #list-13 ul > li,
 #list-14 ul > li,
 #list-15 ul > li
- {
+{
   padding: 60px;
   margin-top: -60px;
   display: inline-block;
@@ -178,13 +179,7 @@ a.svg:after {
   display:inline-block;
 }
 
-.navbar {
-  background-color: black;
-  color: black;
-  border: black;
-}
-
- .navbar a {
+.navbar a {
   color: #0047b3;
 }
 
@@ -413,6 +408,13 @@ section h3.section-subheading {
 
 /**** Extra Small ****/
 @media (max-width: 767px) {
+  .navbar {
+       padding:0 20px;
+ }
+  section {
+    padding: 150px 0;
+  }
+
   header .intro-text .intro-heading {
     font-size: 20px;
     line-height: 30px;
